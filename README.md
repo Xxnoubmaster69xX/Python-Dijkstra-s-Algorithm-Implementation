@@ -21,20 +21,4 @@ This project provides a web-based interface to visualize Dijkstra's shortest pat
 *   **Frontend:** HTML, CSS, JavaScript, vis.js (vis-network)
 *   **Core Algorithm:** Dijkstra (Python `heapq`)
 
-## How to Run
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repository-url>
-    cd <repository-directory>
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install Flask
-    ```
-    *(Note: `heapq` and `json` are part of Python's standard library)*
-3.  **Run the Flask application:**
-    ```bash
-    python app.py
-    ```
-4.  **Open your web browser** and navigate to `http://127.0.0.1:5000` (or the address shown in the terminal).
